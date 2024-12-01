@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argyra</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header none1">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="LoftHouse" width="180px" height="60px" id="logo">
+                    </a>
+
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a href="#!">Home</a></li>
+                                <li>
+                                    <a href="./html/shop.html" class="dr-btn" target="_blank">Shop</a>
+                                    <ul class="dropdown ">
+                                        <li><a href="./html/shop.html" data-category="Rings">Rings</a></li>
+                                        <li><a href="./html/shop.html" data-category="Necklaces">Necklaces</a></li>
+                                        <li><a href="./html/shop.html" data-category="Bracelets">Bracelets</a></li>
+                                        <li><a href="./html/shop.html" data-category="Earrings">Earrings</a></li>
+                                    </ul>
+                                
+                                </li>
+                                <li><a href="#!">Custom Design</a></li>
+                                <li><a href="#!">About Us</a></li>
+                                <li><a href="./html/feedback.html" target="_blank">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header__nav-btn">
+                        <button class="nav-icon-btn">
+                            <div class="nav-icon"></div>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="header__title">
+                Argyra - Timeless Elegance <br> in Every Detail 
+                <a href="" class="header__title-icon" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><ellipse cx="12" cy="5" fill="#B76E79" rx="4" ry="4"><animate id="svgSpinnersBouncingBall0" fill="freeze" attributeName="cy" begin="0;svgSpinnersBouncingBall2.end" calcMode="spline" dur="0.375s" keySplines=".33,0,.66,.33" values="5;20"/><animate attributeName="rx" begin="svgSpinnersBouncingBall0.end" calcMode="spline" dur="0.05s" keySplines=".33,0,.66,.33;.33,.66,.66,1" values="4;4.8;4"/><animate attributeName="ry" begin="svgSpinnersBouncingBall0.end" calcMode="spline" dur="0.05s" keySplines=".33,0,.66,.33;.33,.66,.66,1" values="4;3;4"/><animate id="svgSpinnersBouncingBall1" attributeName="cy" begin="svgSpinnersBouncingBall0.end" calcMode="spline" dur="0.025s" keySplines=".33,0,.66,.33" values="20;20.5"/><animate id="svgSpinnersBouncingBall2" attributeName="cy" begin="svgSpinnersBouncingBall1.end" calcMode="spline" dur="0.4s" keySplines=".33,.66,.66,1" values="20.5;5"/></ellipse></svg> 
+                </a>
+            </h1>
+        </div>
+
+        <div class="header__footer">
+            <div class="text-right">
+                <a href="#section-map" class="info info--map">Yerevan, Armenia</a>
+            </div>
+            <a href="tel:+37493208918" class="info info--tel">374 (93) 208918</a>
+        </div>
+    </header>
+
+    <main> 
+        <section class="bestsellers none1">
+            <div class="container">
+
+                <div class="bestsellers__title">
+                    <h2 class="title-2">Bestseller</h2>
+                </div>
+
+                <div class="cards">
+
+                    <a href="/html/shop.html" class="card">
+                        <img class="card__img" src="./img/cards/01.jpg" alt="">
+                        <h3 class="card__title">“Branches”</h3>
+                    </a>
+
+                    <a href="/html/shop.html" class="card">
+                        <img class="card__img" src="./img/cards/02.jpg" alt="">
+                        <h3 class="card__title">“Autmn”</h3>
+                    </a>
+
+                   <a href="/html/shop.html" class="card">
+                        <img class="card__img" src="./img/cards/03.jpg" alt="">
+                        <h3 class="card__title">“Flower”</h3>
+                    </a>
+
+                    <a href="/html/shop.html" class="card">
+                        <img class="card__img" src="./img/cards/04.jpg" alt="">
+                        <h3 class="card__title">“Heart”</h3>
+                    </a> 
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-map none1">
+            <div class="container">
+                <div class="section-map__title">
+                    <h2 class="title-2">Argyra on map</h2>
+                </div>
+                <div class="section-map__map">
+                    <div class="map" id="map"></div>
+                </div>
+            </div>
+        </section>
+
+    </main> 
+
+    <footer class="footer none1">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <a href="#!">
+                        <img src="./img/logo.png" alt="Argyra">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#logo">Home</a></li>
+                            <li><a href="#!">Shop</a></li>
+                            <li><a href="#!">Costum Design</a></li>
+                            <li><a href="#!">About Us</a></li>
+                            <li><a href="./html/feedback.html" target="_blank">Send feedback</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__address" id="contact">
+                    <ul class="footer__nav-list">
+                        <li>Yerevan, Armenia</li>
+                        <li><a href="tel:+37493208918">374 (93) 208918</a></li>
+                        <li>Every day 10:00 - 20:00</li>
+                        <li>E-mail: <a class="link-bold" href="#">info@argyra.am</a></li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li><a href="#!"><img src="./img/socials/watsup.svg" alt=""></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/argyra_jewelry?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="./img/socials/instagram.svg" alt="" ></a></li>
+                    </ul>
+                </div>
+                <div class="footer_copy">
+                    <p>&copy; 2024 Argyra Jewelry. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU" type="text/javascript"></script>
+
+    <script src="./libs/mask.js"></script>
+    <script src="./libs/mask_list.js"></script>
+
+    
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+</html>
